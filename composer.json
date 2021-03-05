@@ -1,0 +1,6 @@
+{
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "henck/rtf-to-html": "^1.1"
+    }
+}

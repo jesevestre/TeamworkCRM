@@ -1,0 +1,514 @@
+
+:root {
+	--gray-color: rgb(220, 220, 220);
+	--light-gray-color: rgb(240, 240, 240);
+	--my-color: rgb(200, 60, 80);
+}
+
+html, body { margin:0; height: 100%;}
+
+body{
+  margin: 0;
+  text-align: center;
+	font-family : Segoe UI;
+	font-size : 11px!important;
+}
+
+table{
+		font-size : 12px!important;
+}
+
+thead{
+	font-size: 12px!important;
+}
+
+.header{
+  background-color: #03fc8c;
+  text-align: center;
+  height: 50px;
+}
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+    width: 200px;
+    min-height: 400px;
+  }
+
+.app{
+  /* background-color: #f6fcf2; */
+  display: inline-block;
+  width: 95%;
+  height: calc(100% - 10px);          /* para suporte nativo */
+	margin-top: 45px;
+	height: 87%;
+}
+
+/* Gestion de la couleur de background du tableau */
+.table-container th,.table-container td
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	height: 40px;
+	background: var(--light-gray-color);
+  width: calc(100% - 6px);
+	color: rgb(96, 98, 102);
+}
+
+.table-container th{
+  color: #F13B48;
+}
+/*
+.table-container {
+  display: inherit; 
+}*/
+
+.sidenav {
+  display: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color:#3b3528;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: var(--my-color);
+}
+
+.sidenav .closebtn {
+  color: #fff;
+  position: absolute;
+  top: 13px;
+  right: 5px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.titleEntete{
+	margin-right: 10px;
+	margin-top: 17px;
+	color: white;
+}
+
+.popperBtn{
+	text-align: center!important;
+	background-color: red;
+}
+
+.loginFields{
+	width: 30%!important;
+	margin-top: 15%;
+}
+
+.containerFields{
+	border-style: solid;
+	width: 40%;
+	height: 40%;
+	margin-top: 15%;
+	margin-left: 30%;
+}
+
+.barreDeRecherche{
+	margin-top: 10px;
+}
+
+.headerAction{
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(200, 60, 80);
+	height: 3%;
+}
+
+.BoxDetail{
+	width: 99%;
+	margin-left: 0px;
+}
+
+.ColonneGauche{
+	font-size: 12px;
+	color: #303133;
+	text-align: left;
+	font-weight: 500;
+}
+
+.etat{
+	float: right;
+}
+
+.numAct{
+	float: left;
+	size: 50px;
+}
+
+#inputCommentPrep, #inputCommentCompteRend{
+	height: 200px;
+}
+
+.selectColDroite{
+	width: 250px;
+	bottom: 5;
+}
+
+.selectColDroite2{
+	width: 220px;
+	bottom: 5;
+}
+
+.selectColDroite3{
+	width: 100%;
+	bottom: 5;
+	color:"green";
+}
+
+.el-table-filter{
+	text-align: left;
+}
+
+.dateAction{
+    width: 155px!important;
+	bottom: 5!important;
+}
+
+.circleButtons{
+  border-color: #F56C6C!important;
+  border-width: 2px!important;
+}
+
+.boutonVert{
+	background-color:#32CD32!important;
+	color:white!important;
+}
+
+.bodyCard{
+	width: 99%;
+  margin-left: 0px;
+
+}
+
+.el-card__body{
+	padding: 20px 10px!important;
+}
+
+.apact{
+	margin-top: 55px!important;
+}
+
+.TextareaFont > .el-textarea__inner{
+	font-family : Segoe UI!important;
+	font-size : 12px!important;
+	margin-top: 5px;
+}
+
+
+.el-card__header{
+	padding: 10px!important;
+}
+
+
+/* ------------------------------------------- */
+
+/* boutton focus */
+.BtnValiderDevisPlain{
+  color: #FFF!important;
+  background: #67C23A!important;
+  border-color: #67C23A!important;
+}
+
+.BtnValiderDevisPlain :hover{
+  color: #67C23A!important;
+  background: #f0f9eb!important;
+  border-color: #c2e7b0!important;
+}
+
+/* boutton non focus */
+.BtnValiderDevisNPlain{
+  color: #67C23A!important;
+  background: #f0f9eb!important;
+  border-color: #c2e7b0!important;
+}
+
+.BtnValiderDevisNPlain:hover{
+  color: #FFF!important;
+  background: #67C23A!important;
+  border-color: #67C23A!important;
+}
+
+
+/* boutton focus */
+.BtnRefuserDevisPlain{
+  color: #FFF!important;
+  background-color: #F56C6C!important;
+  border-color: #F56C6C!important;
+}
+
+/* .BtnRefuserDevisPlain:hover{
+  color: #F56C6C!important;
+  background: #fef0f0!important;
+  border-color: #fbc4c4!important;
+} */
+
+/* boutton non focus */
+.BtnRefuserDevisNPlain{
+  color: #F56C6C!important;
+  background: #fef0f0!important;
+  border-color: #fbc4c4!important;
+}
+/*
+.BtnRefuserDevisNPlain:hover{
+  color: #FFF!important;
+  background-color: #F56C6C!important;
+  border-color: #F56C6C!important;
+} */
+
+.btnRafaleDevis{
+  width: 30px;
+  border-width: 2px;
+}
+.btnRafaleDevis  [class^=el-icon-]{
+  margin-left: -6px;
+}
+
+.infoInterlocuteur{
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+
+.infoRencontre{
+	margin-left: 25%;
+}
+
+#recontre{
+	visibility: collapse;
+}
+
+.infoRencontre .el-checkbox__label {
+	font-size: 11px!important;
+}
+
+.ColGaucheInterlocuteur{
+	text-align: left;
+}
+
+.fonctionInterlocuteur{
+	display: block;
+  margin-top: -25;
+	font-size: 12px;
+}
+
+.dividerInterlocuteur{
+	margin: 8px 0px!important;
+	background-color: #409EFF!important; /*Encienne c rouge #C83C50 */
+}
+
+.el-collapse-item__content{
+	font-size: 12px!important;
+	font-weight: 500;
+}
+
+.InfoInterlocuteurSmall{
+	line-height: 0.8;
+	margin-left: 5px;
+	font-size: 11px;
+}
+
+.fonctionInterlocuteurSmall{
+	display: block;
+	margin-top: -10px;
+	font-size: 12px;
+}
+
+.ColGaucheInterlocuteurSmall{
+	text-align: left;
+	margin-top: 15px;
+}
+
+/* gestion du nom et prenom interlocuteur s'ils sont trop grands pour être contenus dans une ligne */
+
+@media (max-width: 661) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+	.InfoInterlocuteur{
+		line-height: 0.8;
+		margin-left: 5px;
+		font-size: 11px;
+	}
+
+	.fonctionInterlocuteur{
+		display: block;
+		margin-top: -10px;
+		font-size: 12px;
+	}
+
+	.ColGaucheInterlocuteur{
+		text-align: left;
+		margin-top: 15px;
+	}
+}
+
+.ColDroiteInterlocuteur{
+	text-align: left;
+	font-weight: 490;
+}
+
+.el-input__inner{
+	font-family : Segoe UI!important;
+	font-size : 12px!important;
+}
+
+.colGaucheTacheHeader{
+	text-align: left;
+    line-height: 15px;
+    padding-top: 3;
+    font-size: 11px;
+    width: 70%;
+}
+
+.colDroiteTacheHeader{
+	text-align: left;
+  	line-height: 15px;
+  	padding-top: -20;
+  	font-size: 12px;
+	left: 10%;
+}
+
+.colDroiteRencontré{
+	text-align: left;
+  	line-height: 15px;
+  	padding-top: -20;
+  	font-size: 12px;
+	padding-right: 10px;
+	width: 100px;
+}
+
+.fab-container{
+	position: fixed;
+	bottom: 30px;
+	height: 30px;
+	right: 30px;
+	border-radius: 100%;
+	z-index: 1000;
+}
+
+.dialogAjout > .el-dialog{
+	width: 90%!important;
+}
+
+/* .dialog_IMG > .el-dialog{
+	width: 90%!important;
+} */
+
+
+@media screen and (max-width: 400px) {
+	.dialog_IMG > .el-dialog{
+		width: 79%!important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.dialog_IMG > .el-dialog{
+		width: 59%!important;
+	}
+}
+
+@media screen and (min-width: 1450px) {
+	.dialog_IMG > .el-dialog{
+		width: 25%!important;
+	}
+}
+
+
+.displayFormRight{
+	text-align: left;
+}
+
+.dateFormTache{
+	/* width: inherit!important; */
+	margin-top: 10px;
+}
+
+.colDroiteForm{
+	width: 100%!important;
+}
+
+
+.el-dialog__body{
+	padding: 10px 8px!important;
+}
+
+.ColDroiteDialogTache{
+	text-align: left;
+	font-weight: 490;
+}
+
+.ColDroiteDialogTache > .el-select {
+	width: 300px;
+}
+
+.ColDroiteDialogTache > .el-input {
+	width: 300px;
+}
+
+.dialog-footer{
+	margin-top: 15px;
+}
+
+.el-message-box {
+	width: 90%!important;
+}
+
+.colDialogInterlocuteur{
+	padding: 3px 0px!important;
+}
+
+.colDialogInterlocuteur > .cell{
+	word-break: keep-all!important;
+	line-height: normal!important;
+}
+
+
+.iconDownload {
+	display: inline-block!important;
+	font-size: 25px!important;
+	position: static!important;
+	line-height: inherit!important;
+}
+
+.addbtn{
+	box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.notification_doublon{
+	width: 90%!important;
+  border-color: red!important;
+	max-width: 330px;
+}
+
+[v-cloak] { display: none; }
+
+
+.el-input.is-disabled .el-input__inner {
+	color: black!important;
+	background-color: rgb(235, 235, 228) !important;
+}
+
+.date_picker_mobile{
+	margin-top: 2vh!important;
+}
